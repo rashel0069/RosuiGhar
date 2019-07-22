@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".DetailActivity">
+    <ImageView
+        android:contentDescription="Food Image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/imag2"
+        android:scaleType="centerCrop"
+        android:id="@+id/dis_img_Id"/>
+    <ScrollView
+        android:id="@+id/text_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.codesgood.views.JustifiedTextView
+            android:id="@+id/dis_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:hint="Descriptions"
+            android:lineSpacingExtra="1pt" />
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "60925384889",
+    "firebase_url": "https://rosuighor-acc26.firebaseio.com",
+    "project_id": "rosuighor-acc26",
+    "storage_bucket": "rosuighor-acc26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60925384889:android:a64577dc26e313db",
+        "android_client_info": {
+          "package_name": "com.appsHat.rosuighor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60925384889-ni5dfi23hdh2d8tcqlnlfq7ubqfv5hb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appsHat.rosuighor",
+            "certificate_hash": "b9e0ed23e4acfd580092aa197337d44864388a3a"
+          }
+        },
+        {
+          "client_id": "60925384889-onpapkfkg9da0jbf77chuajs5abeb7oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt1EicYBmvk1d7m3aqLPEpTSZdfK-aBkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60925384889-onpapkfkg9da0jbf77chuajs5abeb7oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

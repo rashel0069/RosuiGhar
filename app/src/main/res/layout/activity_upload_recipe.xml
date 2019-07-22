@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadRecipe">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hint4"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:contentDescription="Select Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/up_image_id"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/prev" />
+                <Button
+                    android:id="@+id/select_image_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint5"
+                    android:textColor="@color/yellow"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textAllCaps="false"/>
+                <Spinner
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:id="@+id/spinner_id"
+                    android:entries="@array/category">
+                </Spinner>
+
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/edit_title_id"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint6"/>
+
+                <EditText
+                    android:inputType="text"
+                    android:id="@+id/edit_description_id"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint7"/>
+                <Button
+                    android:id="@+id/upload_recipe_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/hint8"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

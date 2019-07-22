@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".AdminLogin">
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:contentDescription="Logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/m1"
+            android:scaleType="fitXY"/>
+        <EditText
+            android:id="@+id/image_email_id"
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
+            android:layout_height="match_parent"
+            android:hint="@string/hint1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:contentDescription="Icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/p1"
+            android:scaleType="fitXY"/>
+
+        <EditText
+            android:id="@+id/image_pass_id"
+            android:layout_marginStart="15dp"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="match_parent"
+            android:hint="password *****"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:outlineAmbientShadowColor="@color/yellow"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <ImageButton
+        android:contentDescription="Login Button"
+        android:id="@+id/login_button_id"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:src="@drawable/lodin"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:textSize="16sp"
+        android:textColor="@color/yellow"
+        android:textAlignment="center"
+        android:text="@string/note"/>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">রসুই ঘর</string>
+    <string name="hint1">yourmail@rosuighar.com</string>
+    <string name="hint2">password *****</string>
+    <string name="hint3">Category</string>
+    <string name="hint4">Welcome To Admin Panel</string>
+    <string name="hint5">Select Image</string>
+    <string name="hint6">Enter Recipe Title</string>
+    <string name="hint7">Enter Recipe Description</string>
+    <string name="hint8">Upload Recipe</string>
+    <string name="hint9">Recipe Title</string>
+    <string name="hint10">Recipe description</string>
+    <string name="hint11">Recipe Title</string>
+    <string name="click">রসুই ঘর খাবারের রেসেপি দেখতে নিচের বৃত্তটিতে ট্যাপ করুন এবং পছন্দের ক্যাটাগরি নির্বাচন করুন।</string>
+    <string name="note">Note: This is only for apps admin. If you want to join as a admin please contract with us.\n\n
+        e-mail: rashel.gub@gmail.com</string>
+    <string-array name="category">
+        <item>Select Category</item>
+        <item>BanglaKhabar</item>
+        <item>Forgainkhabar</item>
+        <item>Vorta</item>
+        <item>Juice</item>
+    </string-array>
+
+</resources>
